@@ -13,7 +13,7 @@ const Bookshelf = require(path.join(__dirname, '../services/bookshelf.js'));
 class Publication extends Bookshelf.Model {
     get tableName() { return 'pnw2_publications'; }
 
-    get hasTimestamps() { return false; }
+    get hasTimestamps() { return true; }
 }
 
 module.exports = {

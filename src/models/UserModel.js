@@ -10,22 +10,11 @@
 const path      = require('path');
 const Bookshelf = require(path.join(__dirname, '../services/bookshelf.js'));
 
-require('./PublicationModel.js');
-require('./FriendshipModel.js');
 
 class User extends Bookshelf.Model {
     get tableName() { return 'pnw2_users'; }
 
-    get hasTimestamps() { return false; }
-
-    publications(){
-        return this.hasMany('Publication', 'user_id');
-    }
-
-    friends(){
-        return this.hasMany('Friendship').query('where', 'friendship_status_id', '2');
-    }
-
+    get hasTimestamps() { return true; }
 }
 
 module.exports = {

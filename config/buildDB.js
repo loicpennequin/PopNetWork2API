@@ -38,6 +38,8 @@ const knex = require('knex')(cfg);
         await knex.schema.createTable('pnw2_publications', table => {
             table.increments().primary();
             table.integer('user_id').notNullable();
+            table.integer('likes_count').notNullable();
+            table.integer('comments_count').notNullable();
             table.string('body').notNullable();
             table.boolean('private').defaultTo(false);
 
@@ -56,7 +58,7 @@ const knex = require('knex')(cfg);
             table.index(['sendee_id']);
         });
         await knex.schema.dropTableIfExists('pnw2_user_roles');
-        await knex.schema.createTable('pnw2_roles', table => {
+        await knex.schema.createTable('pnw2_user_roles', table => {
             table.increments().primary();
             table.string('value').notNullable();
         });
@@ -88,7 +90,7 @@ const knex = require('knex')(cfg);
 
         await knex('pnw2_user_roles').insert({value: 'USER'});
         await knex('pnw2_user_roles').insert({value: 'DEVELOPER'});
-        await knex('pnw2_roles').insert({value: 'ADMIN'});
+        await knex('pnw2_user_roles').insert({value: 'ADMIN'});
         await knex('pnw2_friendship_statuses').insert({value: 'PENDING'});
         await knex('pnw2_friendship_statuses').insert({value: 'ACCEPTED'});
         await knex('pnw2_friendship_statuses').insert({value: 'DECLINED'});
