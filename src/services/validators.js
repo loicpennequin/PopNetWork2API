@@ -21,5 +21,5 @@ module.exports.register = [
         .exists()
         .withMessage('Email is required.')
         .isEmail()
-        .withMessage('Email must be a valid email adress.')
+        .withMessage("Email must be a valid email address.")
 ]
