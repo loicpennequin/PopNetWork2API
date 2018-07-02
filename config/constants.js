@@ -5,6 +5,7 @@
 */
 
 module.exports = Object.freeze({
+    WWW_URL: "http://localhost:3000",
     BLOGS: Object.freeze({
         MAX_BLOGS: 5
     })

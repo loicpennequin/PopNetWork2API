@@ -12,3 +12,9 @@ const ctrl            = require(path.join(__dirname, '../../controllers'));
 module.exports.authenticate = (req, res, next) => {
     ctrl.auth.authenticate(req,res,next);
 };
+
+module.exports.isAuthenticated = (req, res, next) => {
+    handler(() => ({
+        data: { error : false }
+    }))(req, res, next);
+};

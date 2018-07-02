@@ -102,3 +102,9 @@
 {"message":"validationResult is not a function","level":"error"}
 {"message":"insert into `users` (`email`, `password`, `username`) values ('daria@gmail.com', '$2b$10$QBzjG9r4kWhSeJBDQb14G.iXJYKIQ9yePSefpXHmD/QIbIUnHnP4K', 'Daria') - ER_NO_SUCH_TABLE: Table 'pnw2.users' doesn't exist","level":"error"}
 {"message":"insert into `pnw2_users` (`email`, `password`, `username`) values ('daria@gmail.com', '$2b$10$0jIO7sohpZAhjXUYYm3e7eNmtkIL3Nk4Q/8y/00BTGJ/mQKFOHlPK', 'Daria') - ER_DUP_ENTRY: Duplicate entry 'daria@gmail.com' for key 'pnw2_users_email_unique'","level":"error"}
+{"message":"Cannot convert undefined or null to object","level":"error"}
+{"message":"Cannot convert undefined or null to object","level":"error"}
+{"message":"Cannot convert undefined or null to object","level":"error"}
+{"message":"Cannot convert undefined or null to object","level":"error"}
+{"message":"Cannot convert undefined or null to object","level":"error"}
+{"message":"Cannot convert undefined or null to object","level":"error"}

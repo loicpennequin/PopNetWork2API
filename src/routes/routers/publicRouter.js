@@ -8,7 +8,7 @@ const validators    = require(path.join(__dirname, '../../services/validators.js
 router.post('/register', validators.register, handlers.user.register);
 router.post('/login', handlers.auth.authenticate);
 router.get('/test', (req, res) => {
-    res.json({message:'Soon...'});
+    res.json({message:'Soon'});
 });
 
 module.exports = router;
