@@ -87,6 +87,16 @@ const knex = require('knex')(cfg);
 
             table.timestamps(false, true);
         });
+        await knex.schema.dropTableIfExists('pnw2_private_messages');
+        await knex.schema.createTable('pnw2_private_messages', table => {
+            table.increments().primary();
+            table.integer('target_id').notNullable();
+            table.integer('sender_id').notNullable();
+            table.text('body').notNullable();
+            table.boolean('is_read').defaultTo(0);
+
+            table.timestamps(false, true);
+        });
 
         await knex('pnw2_user_roles').insert({value: 'USER'});
         await knex('pnw2_user_roles').insert({value: 'DEVELOPER'});

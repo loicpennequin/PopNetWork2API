@@ -17,7 +17,7 @@ module.exports = (promise, params) => async (req, res, next) => {
         const result = await promise(...promiseParams);
         return res.status(result.status || 200)
             .set(result.headers ? result.headers : {})
-            .json(Object.assign({}, req.token, result.data || { message: 'OK' }));
+            .json(Object.assign({}, { token : req.token } , result.data || { message: 'OK' }));
     } catch (err) {
         logger.error(err.message);
         return res.status(err.status || 500).json({ error: err.message });
