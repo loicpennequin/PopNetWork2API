@@ -10,7 +10,6 @@ const ctrl            = require(path.join(__dirname, '../../controllers'));
 const handler         = require(path.join(__dirname, '../../services/controllerHandler.js'));
 
 module.exports.authenticate = (req, res, next) => {
-    console.log(req.body);
     ctrl.auth.authenticate(req,res,next);
 };
 
