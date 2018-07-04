@@ -108,3 +108,10 @@
 {"message":"Cannot convert undefined or null to object","level":"error"}
 {"message":"Cannot convert undefined or null to object","level":"error"}
 {"message":"Cannot convert undefined or null to object","level":"error"}
+{"message":"select `pnw2_friendships_statuses`.* from `pnw2_friendships_statuses` where `0` = {\"sender_id\":1,\"friendship_status_id\":1} - ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `friendship_status_id` = 1' at line 1","level":"error"}
+{"message":"select `pnw2_friendships_statuses`.* from `pnw2_friendships_statuses` where `sender_id` = 1 and `friendship_status_id` = 1 - ER_NO_SUCH_TABLE: Table 'pnw2.pnw2_friendships_statuses' doesn't exist","level":"error"}
+{"message":"ObjectAssign is not defined","level":"error"}
+{"message":"user.serialize is not a function","level":"error"}
+{"message":"user.serialize is not a function","level":"error"}
+{"message":"(intermediate value).toJson is not a function","level":"error"}
+{"message":"select `pnw2_private_messages`.* from `pnw2_private_messages` where `pnw2_private_messages`.`sender_id` in (1) - ER_NO_SUCH_TABLE: Table 'pnw2.pnw2_private_messages' doesn't exist","level":"error"}

@@ -13,7 +13,7 @@ const generateToken = id =>
     jwt.sign(
         {data: { id }, timestamp : new Date()},
         process.env.TOKEN_SECRET,
-        {expiresIn: 300}
+        {expiresIn: 3600}
     );
 
 class AuthController{

@@ -1,0 +1,1017 @@
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"level":"error"}
+{"level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user ''@'localhost' (using password: NO)","sqlState":"28000","fatal":true,"level":"error"}
+{"level":"error"}
+{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user ''@'localhost' (using password: NO)","sqlState":"28000","fatal":true,"level":"error"}
+{"level":"error"}
+{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user ''@'localhost' (using password: NO)","sqlState":"28000","fatal":true,"level":"error"}
+{"level":"error"}
+{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user ''@'localhost' (using password: NO)","sqlState":"28000","fatal":true,"level":"error"}
+{"level":"error"}
+{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user ''@'localhost' (using password: NO)","sqlState":"28000","fatal":true,"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"req is not defined","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"req is not defined","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"Cannot read property 'status' of undefined","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"Cannot read property 'status' of undefined","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"Cannot read property 'status' of undefined","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"Cannot read property 'status' of undefined","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"Cannot read property 'status' of undefined","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"Cannot read property 'status' of undefined","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"Cannot read property 'status' of undefined","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"Cannot read property 'status' of undefined","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"Cannot read property 'status' of undefined","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"Cannot read property 'status' of undefined","level":"error"}
+{"message":"Cannot read property 'status' of undefined","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"Cannot read property 'status' of undefined","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"Cannot read property 'status' of undefined","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"Cannot read property 'status' of undefined","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"The operator \"undefined\" is not permitted","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"The operator \"undefined\" is not permitted","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"The operator \"undefined\" is not permitted","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"req is not defined","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"req is not defined","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"model.where(...).query is not a function","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"Cannot read property 'field' of undefined","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"model.query(...).where(...).fetchPage is not a function","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"model.where(...).fetchPage is not a function","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"model.where(...).fetch is not a function","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"validationResult is not a function","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"insert into `users` (`email`, `password`, `username`) values ('daria@gmail.com', '$2b$10$QBzjG9r4kWhSeJBDQb14G.iXJYKIQ9yePSefpXHmD/QIbIUnHnP4K', 'Daria') - ER_NO_SUCH_TABLE: Table 'pnw2.users' doesn't exist","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"insert into `pnw2_users` (`email`, `password`, `username`) values ('daria@gmail.com', '$2b$10$0jIO7sohpZAhjXUYYm3e7eNmtkIL3Nk4Q/8y/00BTGJ/mQKFOHlPK', 'Daria') - ER_DUP_ENTRY: Duplicate entry 'daria@gmail.com' for key 'pnw2_users_email_unique'","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"Cannot convert undefined or null to object","level":"error"}
+{"message":"Cannot convert undefined or null to object","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"Cannot convert undefined or null to object","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"Cannot convert undefined or null to object","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"Cannot convert undefined or null to object","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"Cannot convert undefined or null to object","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"select `pnw2_friendships_statuses`.* from `pnw2_friendships_statuses` where `0` = {\"sender_id\":1,\"friendship_status_id\":1} - ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `friendship_status_id` = 1' at line 1","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"select `pnw2_friendships_statuses`.* from `pnw2_friendships_statuses` where `sender_id` = 1 and `friendship_status_id` = 1 - ER_NO_SUCH_TABLE: Table 'pnw2.pnw2_friendships_statuses' doesn't exist","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"ObjectAssign is not defined","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"user.serialize is not a function","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"user.serialize is not a function","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"(intermediate value).toJson is not a function","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}
+{"message":"select `pnw2_private_messages`.* from `pnw2_private_messages` where `pnw2_private_messages`.`sender_id` in (1) - ER_NO_SUCH_TABLE: Table 'pnw2.pnw2_private_messages' doesn't exist","level":"error"}
+{"message":"===================================","level":"info"}
+{"message":"server started on port 8000","level":"info"}
+{"message":"===================================","level":"info"}

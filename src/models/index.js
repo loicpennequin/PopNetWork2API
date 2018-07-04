@@ -14,4 +14,5 @@ module.exports = {
     publicationComment : require(path.join(__dirname, 'PublicationCommentModel.js')),
     messageComment : require(path.join(__dirname, 'MessageCommentModel.js')),
     friendship : require(path.join(__dirname, 'FriendshipModel.js')),
+    privateMessage : require(path.join(__dirname, 'PrivateMessageModel.js')),
 };

@@ -12,7 +12,7 @@ const Bookshelf = require(path.join(__dirname, '../services/bookshelf.js'));
 
 
 class Friendship extends Bookshelf.Model {
-    get tableName() { return 'pnw2_friendships_statuses'; }
+    get tableName() { return 'pnw2_friendships'; }
 
     get hasTimestamps() { return true; }
 
