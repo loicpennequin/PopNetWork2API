@@ -5,7 +5,7 @@
 */
 
 module.exports = Object.freeze({
-    WWW_URL: process.env.NODE_ENV === 'production' ? 'https://pop-network.herokuapp.com/' : 'http://localhost:3000',
+    WWW_URL: process.env.NODE_ENV === 'production' ? 'https://pop-network.herokuapp.com' : 'http://localhost:3000',
     BLOGS: Object.freeze({
         MAX_BLOGS: 5
     })
