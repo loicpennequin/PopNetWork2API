@@ -28,13 +28,16 @@ class UserController{
     }
 
     static async getSelf(id){
-        let user = await models.user.User.where('id', id)
-                                   .fetch({withRelated: ['sentMessages.target', 'recievedMessages.sender']});
+        let user = await models.user.User
+            .where('id', id)
+            .fetch({withRelated: ['sentMessages.target', 'recievedMessages.sender']});
         let friendshipRequests = models.friendship.Friendship
-                                .where({"sendee_id" : id, "friendship_status_id" : 1})
-                                .fetchAll({withRelated: ['sender', 'sendee']})
+            .where({'sendee_id' : id, 'friendship_status_id' : 1})
+            .fetchAll({withRelated: ['sender', 'sendee']});
+
         user = (await user).toJSON();
         friendshipRequests = (await friendshipRequests).toJSON();
+
         let data = Object.assign(user, { friendshipRequests });
         return { data };
     }

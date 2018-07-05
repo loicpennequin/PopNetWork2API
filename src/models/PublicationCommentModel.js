@@ -28,7 +28,7 @@ class PublicationComment extends Bookshelf.Model {
     }
 
     comments(){
-        return this.hasMany('MessageComment', 'comment_id')
+        return this.hasMany('MessageComment', 'comment_id');
     }
 }
 

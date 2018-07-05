@@ -34,9 +34,9 @@ app.use(passport.session());
 
 //routes config
 require(path.join(__dirname, 'src/routes'))(app);
-// app.get('/', (req, res) => {
-//     res.redirect(process.env.APP_URL);
-// });
+app.get('/', (req, res) => {
+    res.redirect(process.env.APP_URL);
+});
 
 app.use((err, req, res) => {
     if (err.name === 'UnauthorizedError') {

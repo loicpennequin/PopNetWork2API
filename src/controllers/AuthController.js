@@ -35,7 +35,7 @@ class AuthController{
     }
 
     static refreshToken(req, res, next){
-        req.token = generateToken(req.user.id)
+        req.token = generateToken(req.user.id);
         next();
     }
 

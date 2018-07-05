@@ -17,4 +17,4 @@ module.exports.register = (req, res, next) => {
 
 module.exports.getSelf = (req, res, next) => {
     handler(ctrl.user.getSelf, req => [req.user.id])(req, res, next);
-}
+};
