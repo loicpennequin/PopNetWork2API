@@ -35,7 +35,7 @@ app.use(passport.session());
 //routes config
 require(path.join(__dirname, 'src/routes'))(app);
 app.get('/', (req, res) => {
-    res.redirect(process.env.APP_URL);
+    res.redirect(require('./config/constants.js').WWW_URL);
 });
 
 app.use((err, req, res) => {

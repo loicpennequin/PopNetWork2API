@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
+    "buildDB-prod": "cross-env NODE_ENV=production node config/buildDB.js",
     "buildDB": "node config/buildDB.js",
     "pretest": "eslint --ignore-path .eslintignore --ignore-pattern *.test.js  .",
     "test": "jest",
