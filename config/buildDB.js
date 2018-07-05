@@ -4,6 +4,8 @@ require('dotenv').config({
     path: 'config/.env'
 });
 
+const bcrypt = require('bcrypt');
+
 let cfg = {
     client: 'mysql',
     connection: {
@@ -38,9 +40,8 @@ const knex = require('knex')(cfg);
         await knex.schema.createTable('pnw2_publications', table => {
             table.increments().primary();
             table.integer('user_id').notNullable();
-            table.integer('likes_count').notNullable();
-            table.integer('comments_count').notNullable();
             table.string('body').notNullable();
+            table.integer('comments_count').notNullable().defaultTo(0);
             table.boolean('private').defaultTo(false);
 
             table.timestamps(false, true);
@@ -104,6 +105,84 @@ const knex = require('knex')(cfg);
         await knex('pnw2_friendship_statuses').insert({value: 'PENDING'});
         await knex('pnw2_friendship_statuses').insert({value: 'ACCEPTED'});
         await knex('pnw2_friendship_statuses').insert({value: 'DECLINED'});
+
+        await knex('pnw2_users').insert({
+            username: 'Daria',
+            email: 'dadaria@gmail.com',
+            password : await bcrypt.hash('azerty', 10)
+        });
+        await knex('pnw2_users').insert({
+            username: 'Lovies',
+            email: 'lovies@gmail.com',
+            password : await bcrypt.hash('azerty', 10)
+        });
+        await knex('pnw2_users').insert({
+            username: 'Dinolino',
+            email: 'dinolino@gmail.com',
+            password : await bcrypt.hash('azerty', 10)
+        });
+        await knex('pnw2_users').insert({
+            username: 'Karz',
+            email: 'karz62@gmail.com',
+            password : await bcrypt.hash('azerty', 10)
+        });
+        await knex('pnw2_users').insert({
+            username: 'Bouchachoss',
+            email: 'bouchachoss@gmail.com',
+            password : await bcrypt.hash('azerty', 10)
+        });
+        await knex('pnw2_users').insert({
+            username: 'Heather',
+            email: 'heather@gmail.com',
+            password : await bcrypt.hash('azerty', 10)
+        });
+        await knex('pnw2_users').insert({
+            username: 'JunMiyagi',
+            email: 'junmiyagi@gmail.com',
+            password : await bcrypt.hash('azerty', 10)
+        });
+
+        await knex('pnw2_friendships').insert({sender_id: 1, sendee_id: 2, friendship_status_id: 2});
+        await knex('pnw2_friendships').insert({sender_id: 1, sendee_id: 3, friendship_status_id: 2});
+        await knex('pnw2_friendships').insert({sender_id: 1, sendee_id: 4, friendship_status_id: 1});
+        await knex('pnw2_friendships').insert({sender_id: 1, sendee_id: 5, friendship_status_id: 3});
+        await knex('pnw2_friendships').insert({sender_id: 1, sendee_id: 6, friendship_status_id: 1});
+        await knex('pnw2_friendships').insert({sender_id: 1, sendee_id: 7, friendship_status_id: 1});
+        await knex('pnw2_friendships').insert({sender_id: 2, sendee_id: 3, friendship_status_id: 2});
+        await knex('pnw2_friendships').insert({sender_id: 2, sendee_id: 4, friendship_status_id: 1});
+        await knex('pnw2_friendships').insert({sender_id: 2, sendee_id: 5, friendship_status_id: 2});
+        await knex('pnw2_friendships').insert({sender_id: 6, sendee_id: 7, friendship_status_id: 3});
+
+        await knex('pnw2_publications').insert({
+            user_id: 1,
+            body: 'This is publication 1 by Daria'
+        });
+        await knex('pnw2_publications').insert({
+            user_id: 1,
+            body: 'This is publication 2 by Daria'
+        });
+        await knex('pnw2_publications').insert({
+            user_id: 1,
+            body: 'This is private publication 1 by Daria',
+            private: 1
+        });
+        await knex('pnw2_publications').insert({
+            user_id: 1,
+            body: 'This is private publication 2 by Daria',
+            private: 1
+        });
+        await knex('pnw2_publications').insert({
+            user_id: 2,
+            body: 'This is publication 1 by Lovies'
+        });
+        await knex('pnw2_publications').insert({
+            user_id: 2,
+            body: 'This is publication 3 by Lovies'
+        });
+        await knex('pnw2_publications').insert({
+            user_id: 7,
+            body: 'This is publication 1 by JunMiyagi'
+        });
 
     } catch(error) {
         console.log(error);

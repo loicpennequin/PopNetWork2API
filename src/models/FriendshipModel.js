@@ -29,14 +29,6 @@ class Friendship extends Bookshelf.Model {
     }
 }
 
-class FriendshipStatus extends Bookshelf.Model {
-    get tableName() { return 'pnw2_friendships_statuses'; }
-
-    get hasTimestamps() { return false; }
-}
-
-
-
 module.exports = {
     Friendship : Bookshelf.model('Friendship', Friendship)
 };

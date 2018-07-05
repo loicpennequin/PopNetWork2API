@@ -4,7 +4,7 @@
  * @author Daria <lo.pennequin@gmail.com>
  */
 
- const { check } = require('express-validator/check');
+const { check } = require('express-validator/check');
 
 module.exports.register = [
     check('password')
@@ -21,5 +21,5 @@ module.exports.register = [
         .exists()
         .withMessage('Email is required.')
         .isEmail()
-        .withMessage("Email must be a valid email address.")
-]
+        .withMessage('Email must be a valid email address.')
+];
