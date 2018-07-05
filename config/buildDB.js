@@ -10,13 +10,8 @@ const prod = process.env.NODE_ENV === 'production';
 let host = prod ? process.env.DB_HOST_PROD : process.env.DB_HOST;
 let user = prod ? process.env.DB_USER_PROD : process.env.DB_USER;
 let database = prod ? process.env.DB_NAME_PROD : process.env.DB_NAME;
-let password = prod ? process.env.DB_PASSWORD_PROD : (process.end.DB_PASSWORD || '');
+let password = prod ? process.env.DB_PASSWORD_PROD : (process.env.DB_PASSWORD || '');
 
-console.log(prod);
-console.log(host);
-console.log(database);
-console.log(user);
-console.log(password);
 let cfg = {
     client: 'mysql',
     connection: {
@@ -68,12 +63,12 @@ const knex = require('knex')(cfg);
         });
         await knex.schema.dropTableIfExists('pnw2_user_roles');
         await knex.schema.createTable('pnw2_user_roles', table => {
-            table.increments().primary();
+            table.integer('id').primary();
             table.string('value').notNullable();
         });
         await knex.schema.dropTableIfExists('pnw2_friendship_statuses');
         await knex.schema.createTable('pnw2_friendship_statuses', table => {
-            table.increments().primary();
+            table.integer('id').primary();
             table.string('value').notNullable();
         });
         await knex.schema.dropTableIfExists('pnw2_comment_comments');
@@ -107,12 +102,12 @@ const knex = require('knex')(cfg);
             table.timestamps(false, true);
         });
 
-        await knex('pnw2_user_roles').insert({value: 'USER'});
-        await knex('pnw2_user_roles').insert({value: 'DEVELOPER'});
-        await knex('pnw2_user_roles').insert({value: 'ADMIN'});
-        await knex('pnw2_friendship_statuses').insert({value: 'PENDING'});
-        await knex('pnw2_friendship_statuses').insert({value: 'ACCEPTED'});
-        await knex('pnw2_friendship_statuses').insert({value: 'DECLINED'});
+        await knex('pnw2_user_roles').insert({id: 1, value: 'USER'});
+        await knex('pnw2_user_roles').insert({id: 2, value: 'DEVELOPER'});
+        await knex('pnw2_user_roles').insert({id: 3, value: 'ADMIN'});
+        await knex('pnw2_friendship_statuses').insert({id: 1, value: 'PENDING'});
+        await knex('pnw2_friendship_statuses').insert({id: 2, value: 'ACCEPTED'});
+        await knex('pnw2_friendship_statuses').insert({id: 3, value: 'DECLINED'});
 
         await knex('pnw2_users').insert({
             username: 'Daria',
@@ -150,16 +145,19 @@ const knex = require('knex')(cfg);
             password : await bcrypt.hash('azerty', 10)
         });
 
-        await knex('pnw2_friendships').insert({sender_id: 1, sendee_id: 2, friendship_status_id: 2});
-        await knex('pnw2_friendships').insert({sender_id: 1, sendee_id: 3, friendship_status_id: 2});
-        await knex('pnw2_friendships').insert({sender_id: 1, sendee_id: 4, friendship_status_id: 1});
-        await knex('pnw2_friendships').insert({sender_id: 1, sendee_id: 5, friendship_status_id: 3});
-        await knex('pnw2_friendships').insert({sender_id: 1, sendee_id: 6, friendship_status_id: 1});
-        await knex('pnw2_friendships').insert({sender_id: 1, sendee_id: 7, friendship_status_id: 1});
-        await knex('pnw2_friendships').insert({sender_id: 2, sendee_id: 3, friendship_status_id: 2});
-        await knex('pnw2_friendships').insert({sender_id: 2, sendee_id: 4, friendship_status_id: 1});
-        await knex('pnw2_friendships').insert({sender_id: 2, sendee_id: 5, friendship_status_id: 2});
-        await knex('pnw2_friendships').insert({sender_id: 6, sendee_id: 7, friendship_status_id: 3});
+        // We need to change the ids in production because ClearDB increments auto-increment fields by 10
+        const id = id => prod ? parseInt(id -1 + "1") : id;
+
+        await knex('pnw2_friendships').insert({sender_id: 1, sendee_id: id(2), friendship_status_id: 2});
+        await knex('pnw2_friendships').insert({sender_id: 1, sendee_id: id(3), friendship_status_id: 2});
+        await knex('pnw2_friendships').insert({sender_id: 1, sendee_id: id(4), friendship_status_id: 1});
+        await knex('pnw2_friendships').insert({sender_id: 1, sendee_id: id(5), friendship_status_id: 3});
+        await knex('pnw2_friendships').insert({sender_id: 1, sendee_id: id(6), friendship_status_id: 1});
+        await knex('pnw2_friendships').insert({sender_id: 1, sendee_id: id(7), friendship_status_id: 1});
+        await knex('pnw2_friendships').insert({sender_id: id(2), sendee_id: id(3), friendship_status_id: 2});
+        await knex('pnw2_friendships').insert({sender_id: id(2), sendee_id: id(4), friendship_status_id: 1});
+        await knex('pnw2_friendships').insert({sender_id: id(2), sendee_id: id(5), friendship_status_id: 2});
+        await knex('pnw2_friendships').insert({sender_id: id(6), sendee_id: id(7), friendship_status_id: 3});
 
         await knex('pnw2_publications').insert({
             user_id: 1,
@@ -180,15 +178,15 @@ const knex = require('knex')(cfg);
             private: 1
         });
         await knex('pnw2_publications').insert({
-            user_id: 2,
+            user_id: id(2),
             body: 'This is publication 1 by Lovies'
         });
         await knex('pnw2_publications').insert({
-            user_id: 2,
+            user_id: id(2),
             body: 'This is publication 3 by Lovies'
         });
         await knex('pnw2_publications').insert({
-            user_id: 7,
+            user_id: id(7),
             body: 'This is publication 1 by JunMiyagi'
         });
 
