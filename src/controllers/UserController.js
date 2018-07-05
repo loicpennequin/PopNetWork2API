@@ -45,7 +45,7 @@ class UserController{
     static async getProfile(id){
         let user = (
             await models.user.User.where('id', id)
-                                  .fetch({withRelated: ['publications.comments.author']})
+                .fetch({withRelated: ['publications.comments.author']})
         ).toJSON();
 
         return { data: user };

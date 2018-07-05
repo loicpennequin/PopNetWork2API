@@ -5,14 +5,15 @@ require('dotenv').config({
 });
 
 const bcrypt = require('bcrypt');
+const prod = process.env.NODE_ENV === 'production';
 
 let cfg = {
     client: 'mysql',
     connection: {
-        host : process.env.DB_HOST,
-        user : process.env.DB_USER,
-        database : process.env.DB_NAME,
-        password : process.env.DB_PASSWORD || '',
+        host : prod ? process.env.DB_HOST_PROD : process.env.DB_HOST,
+        user : prod ? process.env.DB_USER_PROD : process.env.DB_USER,
+        database : prod ? process.env.DB_NAME_PROD : process.env.DB_NAME,
+        password : prod ? process.env.DB_PASSWORD_PROD : (process.end.DB_PASSWORD || ''),
         charset  : 'utf8'
     }
 };

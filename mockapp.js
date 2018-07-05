@@ -1,14 +1,7 @@
-'use strict';
-
-//Dependancies
-const express       = require('express');
-
-//Express config
-const app    = express();
-const http   = require('http').Server(app);
-
-app.get('/test', (req, res) => {
-    res.sendStatus(200);
+//app.js
+const express = require('express');
+const app = express();
+app.get('/', (req, res) => {
+    res.status(200).send();
 });
-
-module.exports = http;
+module.exports = app;

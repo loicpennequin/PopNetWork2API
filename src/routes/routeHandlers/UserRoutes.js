@@ -17,8 +17,8 @@ module.exports.register = (req, res, next) => {
 
 module.exports.getSelf = (req, res, next) => {
     handler(ctrl.user.getSelf, req => [req.user.id])(req, res, next);
-}
+};
 
 module.exports.getProfile = (req, res, next) => {
     handler(ctrl.user.getProfile, req => [req.params.id])(req, res, next);
-}
+};
