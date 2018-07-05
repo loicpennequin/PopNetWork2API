@@ -112,7 +112,8 @@ const knex = require('knex')(cfg);
         await knex('pnw2_users').insert({
             username: 'Daria',
             email: 'dadaria@gmail.com',
-            password : await bcrypt.hash('azerty', 10)
+            password : await bcrypt.hash('azerty', 10),
+            profile_picture_url: 'popnetwork/me.jpg'
         });
         await knex('pnw2_users').insert({
             username: 'Lovies',
