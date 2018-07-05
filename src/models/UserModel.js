@@ -17,6 +17,10 @@ class User extends Bookshelf.Model {
 
     get hasTimestamps() { return true; }
 
+    publications(){
+        return this.hasMany('Publication', 'user_id')
+    }
+
     recievedMessages(){
         return this.hasMany('PrivateMessage', 'target_id')
     }

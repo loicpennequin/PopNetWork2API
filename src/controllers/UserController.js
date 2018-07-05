@@ -38,6 +38,15 @@ class UserController{
         let data = Object.assign(user, { friendshipRequests });
         return { data };
     }
+
+    static async getProfile(id){
+        let user = (
+            await models.user.User.where('id', id)
+                                  .fetch({withRelated: ['publications.comments.author']})
+        ).toJSON();
+
+        return { data: user };
+    }
 }
 
 module.exports = UserController;

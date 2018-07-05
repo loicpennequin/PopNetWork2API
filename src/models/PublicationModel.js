@@ -14,6 +14,10 @@ class Publication extends Bookshelf.Model {
     get tableName() { return 'pnw2_publications'; }
 
     get hasTimestamps() { return true; }
+
+    comments(){
+        return this.hasMany('PublicationComment', 'comment_id');
+    }
 }
 
 module.exports = {
