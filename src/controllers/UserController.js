@@ -47,8 +47,8 @@ class UserController{
             await models.user.User.where('id', id)
                 .fetch({
                     withRelated: [
-                        'publications.author',
-                        {'publications.comments.author' : qb => qb.orderBy('created_at', 'desc')}
+                        'publications.author', 'publications.comments.author',
+                        {'publications' : qb => qb.orderBy('created_at', 'desc')}
                     ]
                 })
         ).toJSON();
