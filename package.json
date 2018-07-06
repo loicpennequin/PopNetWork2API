@@ -11,6 +11,7 @@
     "pretest": "eslint --ignore-path .eslintignore --ignore-pattern *.test.js  .",
     "test": "jest",
     "coverage": "jest --collectCoverageFrom=src/**.js --collectCoverageFrom=app.js --coverage test",
+    "predeploy": "npm run test",
     "deploy": "git add . && git commit -m\"deploy commit\" && git push origin master && git push heroku master && heroku open"
   },
   "author": "Daria",
@@ -38,7 +39,7 @@
     "slugify": "^1.3.0",
     "winston": "^3.0.0-rc6"
   },
-  "devDependancies": {
+  "devDependencies": {
     "eslint": "^4.19.1",
     "jest": "^23.1.0",
     "nodemon": "^1.17.5",

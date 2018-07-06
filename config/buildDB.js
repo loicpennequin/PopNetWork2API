@@ -149,7 +149,7 @@ const knex = require('knex')(cfg);
         });
 
         // We need to change the ids in production because ClearDB increments auto-increment fields by 10
-        const id = id => prod ? parseInt(id -1 + "1") : id;
+        const id = id => prod ? parseInt(id -1 + '1') : id;
 
         await knex('pnw2_friendships').insert({sender_id: 1, sendee_id: id(2), friendship_status_id: 2});
         await knex('pnw2_friendships').insert({sender_id: 1, sendee_id: id(3), friendship_status_id: 2});
