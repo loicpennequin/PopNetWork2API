@@ -30,6 +30,7 @@ const knex = require('knex')(cfg);
             table.string('email').notNullable();
             table.string('username').notNullable();
             table.string('password').notNullable();
+            table.string('bio', 120).nullable();
             table.string('profile_picture_url').nullable();
             table.string('role_id').notNullable().defaultTo(1);
             table.integer('friends_count').nullable().defaultTo(0);
@@ -113,7 +114,8 @@ const knex = require('knex')(cfg);
             username: 'Daria',
             email: 'dadaria@gmail.com',
             password : await bcrypt.hash('azerty', 10),
-            profile_picture_url: 'popnetwork/me.jpg'
+            profile_picture_url: 'popnetwork/me.jpg',
+            bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris libero erat, varius id rhoncus amet.'
         });
         await knex('pnw2_users').insert({
             username: 'Lovies',
