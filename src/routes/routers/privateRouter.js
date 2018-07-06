@@ -7,5 +7,6 @@ const handlers  = require(path.join(__dirname, '../routeHandlers'));
 router.get('/authenticated', handlers.auth.isAuthenticated);
 router.get('/me', handlers.user.getSelf);
 router.get('/users/profile/:id', handlers.user.getProfile);
+router.post('/publications', handlers.publication.create);
 
 module.exports = router;

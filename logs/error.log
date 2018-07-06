@@ -115,3 +115,7 @@
 {"message":"user.serialize is not a function","level":"error"}
 {"message":"(intermediate value).toJson is not a function","level":"error"}
 {"message":"select `pnw2_private_messages`.* from `pnw2_private_messages` where `pnw2_private_messages`.`sender_id` in (1) - ER_NO_SUCH_TABLE: Table 'pnw2.pnw2_private_messages' doesn't exist","level":"error"}
+{"message":"model is not defined","level":"error"}
+{"message":"insert into `pnw2_publications` (`created_at`, `updated_at`) values ('2018-07-06 17:53:05.375', '2018-07-06 17:53:05.375') - ER_NO_DEFAULT_FOR_FIELD: Field 'user_id' doesn't have a default value","level":"error"}
+{"message":"insert into `pnw2_publications` (`created_at`, `updated_at`) values ('2018-07-06 17:53:32.783', '2018-07-06 17:53:32.783') - ER_NO_DEFAULT_FOR_FIELD: Field 'user_id' doesn't have a default value","level":"error"}
+{"message":"insert into `pnw2_publications` (`created_at`, `updated_at`) values ('2018-07-06 17:54:09.183', '2018-07-06 17:54:09.183') - ER_NO_DEFAULT_FOR_FIELD: Field 'user_id' doesn't have a default value","level":"error"}
