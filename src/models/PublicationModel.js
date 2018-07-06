@@ -15,6 +15,10 @@ class Publication extends Bookshelf.Model {
 
     get hasTimestamps() { return true; }
 
+    author(){
+        return this.belongsTo('User', 'user_id');
+    }
+    
     comments(){
         return this.hasMany('PublicationComment', 'comment_id');
     }
