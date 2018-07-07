@@ -34,11 +34,25 @@ class UserController{
         let friendshipRequests = models.friendship.Friendship
             .where({'sendee_id' : id, 'friendship_status_id' : 1})
             .fetchAll({withRelated: ['sender', 'sendee']});
+        let friends = models.friendship.Friendship
+            .query(qb => {
+                qb.where('sendee_id', id)
+                    .orWhere('sender_id', id)
+                    .andWhere('friendship_status_id', 2);
+            })
+            .fetchAll({withRelated: ['sender', 'sendee']});
 
         user = (await user).toJSON();
         friendshipRequests = (await friendshipRequests).toJSON();
+        friends = (await friends)
+            .toJSON()
+            .map(friend => {
+                return friend.sender_id === id
+                    ? friend.sendee
+                    : friend.sender;
+            });
 
-        let data = Object.assign(user, { friendshipRequests });
+        let data = Object.assign(user, { friendshipRequests, friends });
         return { data };
     }
 
