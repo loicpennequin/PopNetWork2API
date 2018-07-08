@@ -6,11 +6,11 @@
 
 'use strict';
 
-const path      = require('path');
-const bcrypt    = require('bcrypt');
-const models    = require(path.join(__dirname, '../models'));
-const { validationResult } = require('express-validator/check');
-
+const path                  = require('path');
+const bcrypt                = require('bcrypt');
+const models                = require(path.join(__dirname, '../models'));
+const { validationResult }  = require('express-validator/check');
+const constants             = require(path.join(__dirname, '../../config/constants.js'));
 
 class UserController{
     static async register(req){
@@ -62,7 +62,10 @@ class UserController{
                 .fetch({
                     withRelated: [
                         'publications.author', 'publications.comments.author',
-                        {'publications' : qb => qb.orderBy('created_at', 'desc')}
+                        {'publications' : qb =>
+                            qb.orderBy('created_at', 'desc')
+                                .limit(constants.FEEDS.INITIAL_AMOUNT)
+                        }
                     ]
                 })
         ).toJSON();

@@ -165,7 +165,7 @@ const knex = require('knex')(cfg);
         await knex('pnw2_publications').insert({
             user_id: 1,
             body: 'This is publication 1 by Daria',
-            created_at: new Date('July 06, 2018 11:13:00')
+            created_at: new Date('July 01, 2018 11:13:00')
         });
         await knex('pnw2_publications').insert({
             user_id: 1,
@@ -176,12 +176,13 @@ const knex = require('knex')(cfg);
             user_id: 1,
             body: 'This is private publication 1 by Daria',
             private: true,
-            created_at: new Date('July 04, 2018 17:13:00')
+            created_at: new Date('July 03, 2018 17:13:00')
         });
         await knex('pnw2_publications').insert({
             user_id: 1,
             body: 'This is private publication 2 by Daria',
-            private: true
+            private: true,
+            created_at: new Date('July 04, 2018 17:13:00')
         });
         await knex('pnw2_publications').insert({
             user_id: id(2),

@@ -8,5 +8,7 @@ router.get('/authenticated', handlers.auth.isAuthenticated);
 router.get('/me', handlers.user.getSelf);
 router.get('/users/profile/:id', handlers.user.getProfile);
 router.post('/publications', handlers.publication.create);
+router.get('/publications/:id', handlers.publication.getById);
+router.get('/publications', handlers.publication.getPaginated);
 
 module.exports = router;

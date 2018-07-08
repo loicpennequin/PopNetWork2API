@@ -12,3 +12,11 @@ const handler         = require(path.join(__dirname, '../../services/controllerH
 module.exports.create = (req, res, next) => {
     handler(ctrl.publication.create, req => [req.body])(req, res, next);
 };
+
+module.exports.getById = (req, res, next) => {
+    handler(ctrl.publication.getById, req => [req.params.id])(req, res, next);
+};
+
+module.exports.getPaginated = (req, res, next) => {
+    handler(ctrl.publication.getPaginated, req => [req])(req, res, next);
+};
