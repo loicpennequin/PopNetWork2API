@@ -13,6 +13,22 @@ const { validationResult }  = require('express-validator/check');
 const constants             = require(path.join(__dirname, '../../config/constants.js'));
 
 class UserController{
+    static async getFriends(id){
+        return (await models.friendship.Friendship
+            .query(qb => {
+                qb.where('sendee_id', id)
+                    .orWhere('sender_id', id)
+                    .andWhere('friendship_status_id', 2);
+            })
+            .fetchAll({withRelated: ['sender', 'sendee']}))
+            .toJSON()
+            .map(friend => {
+                return friend.sender_id === id
+                    ? friend.sendee
+                    : friend.sender;
+            });
+    }
+
     static async register(req){
         const errors = validationResult(req);
 
@@ -34,23 +50,10 @@ class UserController{
         let friendshipRequests = models.friendship.Friendship
             .where({'sendee_id' : id, 'friendship_status_id' : 1})
             .fetchAll({withRelated: ['sender', 'sendee']});
-        let friends = models.friendship.Friendship
-            .query(qb => {
-                qb.where('sendee_id', id)
-                    .orWhere('sender_id', id)
-                    .andWhere('friendship_status_id', 2);
-            })
-            .fetchAll({withRelated: ['sender', 'sendee']});
+        let friends = await UserController.getFriends(id);
 
         user = (await user).toJSON();
         friendshipRequests = (await friendshipRequests).toJSON();
-        friends = (await friends)
-            .toJSON()
-            .map(friend => {
-                return friend.sender_id === id
-                    ? friend.sendee
-                    : friend.sender;
-            });
 
         let data = Object.assign(user, { friendshipRequests, friends });
         return { data };
@@ -69,6 +72,8 @@ class UserController{
                     ]
                 })
         ).toJSON();
+        user.friends = await UserController.getFriends(id);
+
 
         return { data: user };
     }

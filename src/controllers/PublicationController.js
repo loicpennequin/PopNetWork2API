@@ -36,18 +36,22 @@ class PublicationController{
     }
 
     static async getPaginated(req){
+        let publications = (await models.publication.Publication
+            .where(JSON.parse(req.query.where))
+            .orderBy('created_at','DESC')
+            .fetchPage({
+                limit: constants.FEEDS.ITEMS_PER_FETCH,
+                offset: req.query.offset,
+                withRelated : [
+                    'author',
+                    'comments.author'
+                ]
+            })).toJSON();
         return {
-            data : (await models.publication.Publication
-                .where(JSON.parse(req.query.where))
-                .orderBy('created_at','DESC')
-                .fetchPage({
-                    limit: constants.FEEDS.ITEMS_PER_FETCH,
-                    offset: req.query.offset,
-                    withRelated : [
-                        'author',
-                        'comments.author'
-                    ]
-                })).toJSON()
+            data : {
+                publications,
+                allFetched : publications.length <= 0
+            }
         };
     }
 }
