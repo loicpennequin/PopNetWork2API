@@ -59,6 +59,21 @@ class UserController{
         return { data };
     }
 
+    static async getPaginated(req){
+        let users = (await models.user.User
+            .query(qb => qb.where('username', 'LIKE', `%${req.query.like}%`))
+            .fetchPage({
+                limit: req.query.limit ? req.query.limit : constants.USERS.ITEMS_PER_SEARCH,
+                offset: req.query.offset ? req.query.offset : 0
+            })).toJSON();
+        return {
+            data : {
+                users,
+                allFetched : users.length <= 0
+            }
+        };
+    }
+
     static async getProfile(id){
         let user = (
             await models.user.User.where('id', id)

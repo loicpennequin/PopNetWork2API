@@ -22,3 +22,7 @@ module.exports.getSelf = (req, res, next) => {
 module.exports.getProfile = (req, res, next) => {
     handler(ctrl.user.getProfile, req => [req.params.id])(req, res, next);
 };
+
+module.exports.getPaginated = (req, res, next) => {
+    handler(ctrl.user.getPaginated, req => [req])(req, res, next);
+};

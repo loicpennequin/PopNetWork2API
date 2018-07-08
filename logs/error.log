@@ -122,3 +122,5 @@
 {"message":"Cannot read property 'toJSON' of null","level":"error"}
 {"message":"Cannot read property 'getFriends' of undefined","level":"error"}
 {"message":"Usercontroller is not defined","level":"error"}
+{"message":"Cannot read property 'Users' of undefined","level":"error"}
+{"message":"Unexpected token u in JSON at position 0","level":"error"}
