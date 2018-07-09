@@ -14,19 +14,20 @@ const constants             = require(path.join(__dirname, '../../config/constan
 
 class UserController{
     static async getFriends(id){
-        return (await models.friendship.Friendship
+        let friends = (await models.friendship.Friendship
             .query(qb => {
                 qb.where('sendee_id', id)
                     .orWhere('sender_id', id)
                     .andWhere('friendship_status_id', 2);
             })
             .fetchAll({withRelated: ['sender', 'sendee']}))
-            .toJSON()
-            .map(friend => {
-                return friend.sender_id === id
-                    ? friend.sendee
-                    : friend.sender;
-            });
+            .toJSON();
+
+        return friends.map(friend => {
+            return friend.sender_id === parseInt(id)
+                ? friend.sendee
+                : friend.sender;
+        });
     }
 
     static async register(req){
@@ -88,7 +89,6 @@ class UserController{
                 })
         ).toJSON();
         user.friends = await UserController.getFriends(id);
-
 
         return { data: user };
     }
