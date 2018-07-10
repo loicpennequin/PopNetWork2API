@@ -46,6 +46,7 @@ const knex = require('knex')(cfg);
             table.integer('user_id').notNullable();
             table.string('body').notNullable();
             table.integer('comments_count').notNullable().defaultTo(0);
+            table.integer('likes_count').notNullable().defaultTo(0);
             table.boolean('private').defaultTo(false);
 
             table.timestamps(false, true);
